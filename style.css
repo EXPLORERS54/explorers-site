@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f9ff;
+}
+header {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo {
+    height: 50px;
+}
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    background: url('images/scooter.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+.cta-button {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.service-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+.service-item h3 {
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+}
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+footer {
+    background-color: #003840;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+@media (max-width: 768px) {
+    .services-grid {
+        flex-direction: column;
+    }
+}
